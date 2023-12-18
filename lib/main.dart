@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prj_form_input/form_input.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: MyForm(),
     );
   }
 }
